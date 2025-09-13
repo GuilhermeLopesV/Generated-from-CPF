@@ -1,14 +1,33 @@
-# 📌 Gerador de CPF  
+# 📌 CPF Generator  
 
-Este projeto foi desenvolvido com o objetivo de **praticar lógica de programação em Python**.  
-A ideia principal é aplicar conceitos básicos de programação como:  
+This project was developed to **practice programming logic in Python**.  
+The main idea is to apply basic programming concepts such as:  
 
-- Uso de **loops**  
-- Manipulação de **listas** e **strings**  
-- Criação de **funções** para evitar repetição de código  
-- Uso da biblioteca interna **`random`**  
+- Using **loops**  
+- Working with **lists** and **strings**  
+- Creating **functions** to avoid code repetition  
+- Using the built-in **`random`** library  
 
 ---
 
-## 🔎 O que o código faz?  
-O programa gera **CPFs válidos** de forma aleatória, aplicando o cálculo correto dos **dígitos verificadores** e exibindo no formato:  
+## 🔎 What does the code do?  
+The program generates **valid CPFs** randomly, applying the correct calculation of the **verification digits** and displaying them in the format:  
+
+---
+
+🛠️ Technologies
+
+Python 3
+
+random library
+
+---
+
+⚠️ Disclaimer: This project is for educational purposes only. Do not use the generated CPFs for illegal activities.
+
+---
+
+## 🚀 How to run  
+1. Clone the repository:  
+```bash
+git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
