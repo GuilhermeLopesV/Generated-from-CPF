@@ -1,33 +1,78 @@
-# 📌 CPF Generator  
+# 🧾 Gerador de CPF
 
-This project was developed to **practice programming logic in Python**.  
-The main idea is to apply basic programming concepts such as:  
-
-- Using **loops**  
-- Working with **lists** and **strings**  
-- Creating **functions** to avoid code repetition  
-- Using the built-in **`random`** library  
+Um projeto simples e funcional desenvolvido em Python com interface gráfica utilizando Tkinter.
+O sistema gera CPFs válidos, permite copiar para a área de transferência e facilita testes e estudos com dados fictícios.
 
 ---
 
-## 🔎 What does the code do?  
-The program generates **valid CPFs** randomly, applying the correct calculation of the **verification digits** and displaying them in the format:  
+## 🚀 Funcionalidades
+
+* ✅ Geração de CPF válido
+* ✅ Formatação automática (XXX.XXX.XXX-XX)
+* ✅ Geração de múltiplos CPFs
+* ✅ Botão para copiar CPF
+* ✅ Interface gráfica simples e intuitiva
 
 ---
 
-🛠️ Technologies
+## 🛠️ Tecnologias utilizadas
 
-Python 3
-
-random library
-
----
-
-⚠️ Disclaimer: This project is for educational purposes only. Do not use the generated CPFs for illegal activities.
+* Python 3
+* Tkinter (interface gráfica)
+* Biblioteca padrão (`random`)
 
 ---
 
-## 🚀 How to run  
-1. Clone the repository:  
-```bash
-git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
+## 📁 Estrutura do projeto
+
+```
+gerador_cpf/
+│
+├── main.py
+├── cpf_utils.py
+└── ui.py
+```
+
+---
+
+## ▶️ Como executar
+
+1. Clone o repositório:
+
+```
+git clone https://github.com/seu-usuario/gerador-cpf.git
+```
+
+2. Acesse a pasta do projeto:
+
+```
+cd gerador-cpf
+```
+
+3. Execute o projeto:
+
+```
+python main.py
+```
+
+---
+
+## 💡 Possíveis melhorias
+
+* Adicionar validador de CPF
+* Salvar CPFs em arquivo (.txt)
+* Criar histórico na interface
+* Melhorar visual com ttk
+* Transformar em aplicação web (Flask)
+
+---
+
+## ⚠️ Aviso
+
+Os CPFs gerados são **fictícios** e devem ser utilizados apenas para fins de estudo e testes.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Guilherme Lopes Vieira
